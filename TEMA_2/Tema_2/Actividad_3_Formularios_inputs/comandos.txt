@@ -1,0 +1,31 @@
+Tipos de input:
+1. <input type="text" name="xxxx">
+Genera cajita estrecha para meter texto
+
+2. <input type="submit" value="Enviar">
+Genera un botón para el formulario para enviar info
+
+3. <input type="reset" value="Comenzar de nuevo">
+Genera un botón para borrar formulario
+
+4.<input type="checkbox" value="xxxx">
+Genera una cajita para marcar 
+
+5. <input type="radio" value="xxxx">
+Genera lo mismo pero en circular
+
+Textarea: <textarea name="mensaje">
+Genera una caja para escribir texto más largo
+
+Select:
+1. <select name="xxxx">
+	<option>1</option>
+	<option>2</option>
+	<option>3</option>ç
+Desplegable de opciones
+
+2. <select multiple name="xxxx">
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+Genera varias opciones con una barra pa desplazarse

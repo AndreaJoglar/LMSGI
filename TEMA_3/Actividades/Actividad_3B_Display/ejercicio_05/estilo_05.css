@@ -1,0 +1,159 @@
+header{
+    background-color: silver;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    border: 1px solid black;
+    width: 30%;
+    padding-left: 5%;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid black;
+}
+
+.menuE{
+    margin: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background-color: bisque;
+    color: black;
+    text-decoration: none;
+}
+
+.menuE:hover{
+    background-color: brown;
+}
+
+.cuerpo{
+    height: 300px;
+    display: flex;
+}
+
+.cuerpo1{
+    width: 60%;
+    padding: 10px;
+}
+
+.cuerpo2{
+    background-color: salmon;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja{
+    background-color: black;
+    width: 80%;
+    height: 125px;
+    margin: 5px;
+}
+
+footer{
+    background-color: silver;
+    display: flex;
+    align-items: center;
+}
+
+.menu2{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    
+    
+}
+
+.menuP{
+    border: solid 1px black;
+    background-color: black;
+    padding: 10px;
+}
+
+.menuP:hover{
+    background-color: silver;
+    color: black;
+}
+
+.redes{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.redes p{
+    margin: 5px;
+    padding: 20px;
+}
+
+@media (max-width:800px){
+    header{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    nav{
+        display: flex;
+        justify-content: center;
+    }
+
+    .menuE{
+        margin-bottom: 0px;
+    }
+
+    .cuerpo{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .cuerpo1{
+        width: auto;
+        text-align: justify;
+    }
+
+    .cuerpo2{
+        flex-direction: row;
+        width: auto;
+        padding: 10px;
+    }
+
+    footer{
+        padding-top: 10px;
+    }
+
+}
+
+@media (max-width:600px){
+    .cuerpo2{
+        flex-direction: column;
+        
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+    .menu2{
+        flex-direction: column;
+        align-items: center;
+        padding: 200px;
+    }
+
+   
+}

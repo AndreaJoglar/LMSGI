@@ -1,0 +1,72 @@
+﻿<guarderia>
+    <clases>
+        <clase>
+            <codigo cod="cod1A">
+                <profesor>isabel</profesor>
+                <aula>1</aula>
+            </codigo>
+            <codigo cod="cod2A">
+                <profesor>lucia</profesor>
+                <aula>1</aula>
+            </codigo>
+            <codigo cod="cod3A">
+                <profesor>maria</profesor>
+                <aula>1</aula>
+            </codigo>
+        </clase>
+    </clases>
+    <alumnos>
+        <niño cod="cod1A">
+            <nombre>juan</nombre>
+            <edad>1</edad>
+            <telefonos>
+                <madre>123123123</madre>
+                <padre>456456456</padre>
+                <canguro>789789789</canguro> 
+            </telefonos>
+            <servicios>
+                <comedor/>
+                <madrugadores/>
+                <transporte/>
+            </servicios>
+            <cuota>280</cuota>
+        </niño>
+        <niña cod="cod2A">
+            <nombre>alba</nombre>
+            <edad>1</edad>
+            <telefonos>
+                <madre>123123123</madre> 
+            </telefonos>
+            <servicios>
+                <comedor/>
+            </servicios>
+            <cuota>280</cuota>
+        </niña>
+        <niña cod="cod3A">
+            <nombre>carlota</nombre>
+            <edad>1</edad>
+            <telefonos>
+                <madre>123123123</madre> 
+                <madre>789789789</madre> 
+            </telefonos>
+            <cuota>100</cuota>
+        </niña>
+        <niño cod="cod2A">
+            <nombre>paco</nombre>
+            <edad>1</edad>
+            <telefonos>
+                <madre>123123123</madre>
+                <padre>456456456</padre>
+                <abuela>789789789</abuela> 
+                <abuela>456456456</abuela> 
+            </telefonos>
+            <servicios>
+                <comedor/>
+                <madrugadores/>
+                <horarioaAmpliado/>
+            </servicios>
+            <cuota>380</cuota>
+        </niño>
+        
+    </alumnos>
+</guarderia>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE productos SYSTEM "ejer3b.dtd">
+<productos>
+    <producto>
+        <raton codigo="cod1"></raton>
+        <teclado codigo="cod2">
+            <nombre>teclado</nombre>
+        </teclado>
+        <monitor codigo="cod3">
+            <nombre>monitor</nombre>
+            <descripcion>monitor de ordenador</descripcion>
+        </monitor>
+    </producto>
+    <producto>
+        <raton codigo="cod4"></raton>
+        <teclado codigo="cod5"></teclado>
+    </producto>
+    <producto>
+        <raton codigo="cod6"></raton>
+        <raton codigo="cod7"></raton>
+        <raton codigo="cod8"></raton>
+    </producto>
+</productos>

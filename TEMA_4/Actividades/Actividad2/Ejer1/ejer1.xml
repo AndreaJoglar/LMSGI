@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listaventas SYSTEM "ejer1.dtd">
+<listaventas>
+<venta>
+    <importe>100.00€</importe>
+    <comprador>Pepe</comprador>
+    <vendedor>Juana</vendedor>
+    <fecha>20240207</fecha>
+    <codFactura>cod1</codFactura>
+</venta>
+</listaventas>

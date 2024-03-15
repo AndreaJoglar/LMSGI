@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas SYSTEM "act_aula.dtd">
+<personas>
+    <persona>
+        <nombre>Juan</nombre>
+        <apellidos>Pardo</apellidos>
+        <nacimiento dia="10" mes="abril" anyo="1982" />
+        <direccion>
+            <calle>Caoba</calle>
+            <poblacion>Madrid</poblacion>
+            <provincia>Madrid</provincia>
+            <cpostal>28005</cpostal>
+        </direccion>
+        <varon></varon>
+    </persona>
+    <persona>
+        <nombre>María</nombre>
+        <direccion>
+            <calle>Carrión</calle>
+            <poblacion>Oviedo</poblacion>
+            <provincia>Asturias</provincia>
+            <cpostal>33001</cpostal>
+        </direccion>
+        <direccion>
+            <cpostal>33340</cpostal>
+        </direccion>
+    </persona>
+    <persona>
+        <nombre>Jorge</nombre>
+        <apellidos>Martín</apellidos>
+        <apellidos>Pérez</apellidos>
+        <direccion>
+            <cpostal>33424</cpostal>
+        </direccion>
+        <varon></varon>
+    </persona>
+</personas>

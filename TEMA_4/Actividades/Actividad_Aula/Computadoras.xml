@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hardwareCatalog PUBLIC "public-id" "Computadoras.dtd.">
+<?xml-stylesheet href="estiloComputadoras.css" type="text/css"?>
+<hardwareCatalog>
+    <item>
+        <id>id111</id>
+        <type>Monitor</type>
+        <brand>marca1</brand>
+        <model>modelo1</model>
+        <specifications>especificación1</specifications>
+        <specifications>especificación2</specifications>
+    </item>
+    <item>
+        <id>id222</id>
+        <type>Ratón</type>
+        <brand>marca2</brand>
+        <model>modelo2</model>
+        <specifications>especificación3</specifications>
+    </item>
+    <item>
+        <id>id333</id>
+        <type>Teclado</type>
+        <brand>marca3</brand>
+        <model>modelo3</model>
+        <specifications>especificación4</specifications>
+    </item>
+</hardwareCatalog>

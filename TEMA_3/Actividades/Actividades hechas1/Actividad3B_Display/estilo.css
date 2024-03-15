@@ -1,0 +1,16 @@
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contenedor div{
+    height: 100px;
+    width: 100px;
+}
+
+.morado{
+    background-color: purple;
+}
+
+.verde{
+    background-color: forestgreen;
+}

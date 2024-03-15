@@ -1,0 +1,237 @@
+body{
+        box-sizing: border-box;
+    }
+@media (max-width: 1380px){
+    .cabecera{
+        background-color: lightblue;
+        text-align: center;
+        border-radius: 10px;
+    }
+    
+    .navegador{
+        display: inline-flex;
+        width: 15%;
+        background-color: khaki;
+        border-radius: 10px;
+        margin-right: 2%;
+    }
+    
+    .no_desplegar{
+        display: none;
+    }
+    
+    .menu{
+        list-style: none;
+        padding: 15px;
+    }
+    
+    .apartado{
+        display: inline-flex;
+        width: 75%;
+        
+    }
+    
+    .apartado article{
+        background-color: coral;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 30%;
+        margin: 5px;
+        
+        height: fit-content;
+    }
+    
+    p{
+        text-align: left;
+    }
+    
+    .pie{
+        background-color: lightblue;
+        text-align: center;
+        border-radius: 10px;
+    }
+    
+    .pie p{
+        text-align: center;
+    }
+}
+
+@media (max-width: 1150px) {
+    body{
+        
+        background-color: rebeccapurple;
+    }
+    .cabecera{
+        background-color: lightblue;
+        text-align: center;
+        border-radius: 10px;
+    }
+    
+    .navegador{
+        display: inline-flex;
+        width: 15%;
+        background-color: khaki;
+        border-radius: 10px;
+        margin-right: 2%;
+        
+    }
+    
+    .no_desplegar{
+        display: none;
+    }
+    
+    .menu{
+        list-style: none;
+        padding: 15px;
+    }
+    
+    .apartado{ 
+        width: 75%;
+        
+    }
+    
+    .apartado article{
+        background-color: coral;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 30%;
+        margin: 5px;
+        height: fit-content;
+        
+    }
+    
+    p{
+        text-align: left;
+    }
+    
+    .pie{
+        background-color: lightblue;
+        text-align: center;
+        border-radius: 10px;
+    }
+    
+    .pie p{
+        text-align: center;
+    }
+}
+
+@media (max-width: 936px) {
+    body{
+       
+        background-color: aqua;
+    }
+    .cabecera{
+        background-color: lightblue;
+        text-align: center;
+        border-radius: 10px;
+    }
+    
+    .navegador{
+        display: inline-flex;
+        width: 15%;
+        background-color: khaki;
+        border-radius: 10px;
+        margin-right: 2%;
+        
+    }
+    
+    .no_desplegar{
+        display: none;
+    }
+    
+    .menu{
+        list-style: none;
+        padding: 15px;
+    }
+    
+    .apartado{
+        width: 75%;
+        flex-direction: column;
+    }
+    
+    .apartado article{
+        background-color: coral;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 30%;
+        margin: 5px;
+        flex-direction: column;
+        height: fit-content;
+    }
+    
+    p{
+        text-align: left;
+    }
+    
+    .pie{
+        background-color: lightblue;
+        text-align: center;
+        border-radius: 10px;
+    }
+    
+    .pie p{
+        text-align: center;
+    }
+}
+
+@media (max-width: 750px) {
+    body{
+        background-color: brown;
+    }
+    .cabecera{
+        background-color: lightblue;
+        text-align: left;
+        border-radius: 10px;
+    }
+    
+    .navegador{
+        display: block;
+        width: 100%;
+        background-color: khaki;
+        border-radius: 10px;
+    }
+    
+    .no_desplegar{
+        display: block;
+    }
+    
+    .menu{
+        display: none;
+    }
+    
+    .apartado{
+        display: inline-flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .apartado article{
+        background-color: coral;
+        border-radius: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        flex-direction: column;
+        height: fit-content;
+        box-sizing: border-box;
+    }
+    
+    p{
+        text-align: left;
+    }
+    
+    .pie{
+        background-color: lightblue;
+        text-align: center;
+        border-radius: 10px;
+    }
+    
+    .pie p{
+        text-align: left;
+    }
+}

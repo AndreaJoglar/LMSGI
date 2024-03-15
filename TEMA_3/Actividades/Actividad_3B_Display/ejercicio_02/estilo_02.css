@@ -1,0 +1,41 @@
+ul{
+    background-color: bisque;
+    list-style: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 150px;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.flex-star{
+    justify-content: flex-start;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+.center{
+    justify-content: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+

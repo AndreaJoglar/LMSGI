@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        h1{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            background-color:rgb(174, 154, 175) ;
+        }
+        p{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        body {
+            background-color: rgba(235, 138, 202, 0.288);
+        }
+        fieldset {
+            background-color: rgb(174, 154, 175);
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>¿Tienes algo que decir?</h1>
+    <p>A través de este formulario puedes enviarme un mensaje para ayudame a corregir errores,
+        a mejorar mim blog o simplemente para decir hola. Cualquier cosa que tengas para decir es bienvenida,
+        así que no lo dudes y déjame un mensaje. ¡Estaré feliz de contestarte!
+    </p>
+    <br>
+    <form>
+            <fieldset style="width: 30%">
+                <legend>Mensaje</legend>
+                <br>
+                <label>Tu nombre:
+                    <input type = "text">
+                </label>
+                <br>
+                <br>
+                <label>Tu dirección de correo:
+                    <input type = "email">
+                </label>
+                <br>
+                <br>
+                <label>Tu mensaje:</label> 
+                <br><textarea></textarea>
+            </fieldset>
+        <fieldset style="width:50%">
+            <legend>Estudios</legend>
+            <br>
+            <label>¿Qué estás estudiando?
+                <select>
+                    <option>DAM</option>
+                    <option>DAW</option>
+                </select>
+            </label>
+            <label>¿Cuál es tu asignatura favorita?
+                <select>
+                    <option>Programación</option>
+                    <option>Bases de datos</option>
+                    <option>Lenguaje de marcas</option>
+                    <option>Entornos de desarrollo</option>
+                    <option>Sistemas informáticos</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset style="width: 45%;">
+            <legend>Nuevos temas</legend>
+            <br>
+            <label>¿Qué temas te gustaría que trate más en mi sitio?
+                <br>
+                <br>
+                <label><input type = "checkbox" name="html">HTML</label>
+                <label><input type = "checkbox" name="graficos">Gráficos</label>
+                <label><input type = "checkbox" name="videojuegos">Videojuegos</label>
+                <label><input type = "checkbox" name="arte">Arte</label>
+                <label><input type = "checkbox" name="musica">Música</label>
+            </label>
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Comenzar de nuevo">
+    </form>
+</body>
+</html>

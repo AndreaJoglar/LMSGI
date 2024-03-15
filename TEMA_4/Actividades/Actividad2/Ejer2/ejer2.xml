@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedidos SYSTEM "ejer2.dtd">
+<pedidos>
+    <pedido>
+        <numSerie>111</numSerie>
+        <cantidad>3</cantidad>
+        <peso>5 kg</peso>
+    </pedido>
+    <pedido>
+        <numSerie>222</numSerie>
+        <cantidad>1</cantidad>
+    </pedido>
+</pedidos>

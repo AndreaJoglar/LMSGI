@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedidos>
+    <pedido>
+        <destinatario>Maria Lopez Gomez</destinatario>
+        <articulo>Bicicleta BM4566</articulo>
+        <direccion>
+            <calle>Juan Alvarez Gonzalez</calle>
+            <numero>4</numero>
+            <piso>5</piso>
+            <letra>A</letra>
+        </direccion>
+        <fecha>
+            <dia>22</dia>
+            <mes>11</mes>
+            <anio>2021</anio>
+        </fecha>
+    </pedido>
+</pedidos>

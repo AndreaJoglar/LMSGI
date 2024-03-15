@@ -1,0 +1,48 @@
+hgroup{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+h2{
+    font-size: 15px;
+}
+
+p{
+    margin-top: 10px;
+    text-align: justify;
+    color: #666;
+}
+
+figcaption{
+    font-style: italic;
+    font-size: 1.1em;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    border: solid 1px #666;
+    
+}
+
+figure{
+    margin: 0px;
+    text-align: center;
+    
+    
+}
+
+img{
+    width: 40%;
+    border-radius: 5px;
+    height: 350px;
+    
+}
+
+.contenedor{
+    width: 80%;
+    margin: 20px auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 5px #666;
+}

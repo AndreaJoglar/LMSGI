@@ -1,0 +1,70 @@
+/*-----ESTILO HEADER NAVEGADOR------------*/
+header{
+    display: flex;
+    height: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.titulo{
+    margin-left: 5%;
+    font-size: 2em;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+    border: solid 2px black;
+    width: 100%;
+    margin-left: 20px;
+    padding-right: 10px;
+    align-items: center;
+    margin-right: 5%;
+   
+}
+
+.navegador span{
+    margin-right: 30px;
+    color: blue;
+}
+
+/*------------ESTILOS MAIN----------*/
+main{
+    display: flex;
+}
+
+
+section{
+    margin: 20px;
+}
+
+.uno{
+    width: 25%; 
+}
+
+.dos{
+    width: 25%;
+    
+}
+
+.tres{
+    width: 50%;
+}
+
+footer{
+    border-top: solid 3px black;
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    gap: 60px;
+}
+
+.pie span{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+

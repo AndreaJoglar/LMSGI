@@ -1,0 +1,34 @@
+<!ELEMENT festival (asistentes, actividades)>
+<!ELEMENT asistentes (titulo+, asistente*)>
+<!ELEMENT asistente (nombre, apellido, contacto, inscripciones, observaciones, precio)>
+<!ATTLIST asistente idAsistente ID #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT contacto ((telefono, email) | (telefono?, email) | (telefono, email?))>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT inscripciones (inscripcion+)>
+<!ELEMENT inscripcion (#PCDATA)>
+<!ATTLIST inscripcion codAct IDREF #REQUIRED>
+<!ELEMENT observaciones (observacion*)>
+<!ELEMENT observacion (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+
+<!ELEMENT actividades (titulo+, actividad*)>
+<!ELEMENT actividad (codigo, espacio, servicios, tipo, encargados)>
+<!ELEMENT codigo (#PCDATA)>
+<!ATTLIST codigo codAct ID #REQUIRED>
+<!ELEMENT espacio (#PCDATA)>
+<!ATTLIST espacio codSala ID #REQUIRED>
+<!ELEMENT salaPolivalente (#PCDATA)>
+<!ELEMENT salonActos (#PCDATA)>
+<!ELEMENT anfiteatro (#PCDATA)>
+<!ELEMENT explanada (#PCDATA)>
+<!ELEMENT servicios (servicio*)>
+<!ELEMENT servicio (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT encargados (encargado+)>
+<!ELEMENT encargado (nombreEncargado)>
+<!ELEMENT nombreEncargado (#PCDATA)>
+<!ATTLIST encargado tipo CDATA #REQUIRED>

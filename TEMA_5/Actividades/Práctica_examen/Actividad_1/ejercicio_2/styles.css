@@ -1,0 +1,21 @@
+.caja{
+    height: 100px;
+    color: white;
+    border: 2px solid black;
+}
+
+.rojo{
+    background-color: darkred;
+}
+
+.verde{
+    background-color: green;
+}
+
+.amarillo{
+    background-color: yellow;
+}
+
+.negro{
+    background-color: black;
+}

@@ -1,0 +1,51 @@
+body{
+    background-color: #ffa500;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.pequenio{
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.verde{
+    float: left;
+    background-color: #adff2f;
+    width: 75%;
+    height: 150px;
+    font-size: 28px;
+    color: #ffffff;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+table{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    width: 25%;
+    background-color: #b10db1;
+    border: 1px solid #000000;
+}
+
+th{
+    border: 1px solid #000000;
+}
+
+td{
+    border: 1px solid #000000;
+}
+
+.rojo{
+    float: right;
+    background-color: #f81c1c;
+    text-align: justify;
+    color: #ffffff;
+    width: 55%;
+    box-sizing: border-box;
+    height: 300px;
+    font-size: 28px;
+    padding: 50px;
+}

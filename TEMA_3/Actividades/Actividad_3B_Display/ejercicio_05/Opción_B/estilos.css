@@ -1,0 +1,109 @@
+/*Encabezado*/
+
+.encabezado{
+    
+    display: flex;
+    background-color: silver;
+}
+
+h2{
+    
+    width: 30%;
+    padding-left: 2%;
+}
+
+nav{
+    
+    display: flex ;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+span{
+    border: solid 1px orange;
+    margin: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 12px;
+    
+}
+
+span:hover{
+    background-color: bisque;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: brown;
+}
+
+.cuerpo{
+    display: flex;
+}
+
+.cuerpoIzq{
+    width: 60%;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+p{
+    margin-top: 0px;
+    
+}
+
+.cuerpoDch{
+    
+    width: 40%;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    gap: 15px;
+}
+
+.cuerpoDch div{
+    width: 60%;
+    height: 100px;
+    border: 1px solid red;
+    background-color: black;
+}
+
+/*-------footer-------*/
+
+footer{
+    background-color: silver;
+    margin: 0px;
+    padding: 10px;
+}
+
+.lista_pie{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.lista_pie li{
+    background-color: black;
+    color: white;
+    border: solid 1px black;
+    padding: 10px;
+}
+
+.lista_pie a{
+    color: white;
+}
+
+.lista_pie li:hover{
+    background-color: cadetblue;
+}

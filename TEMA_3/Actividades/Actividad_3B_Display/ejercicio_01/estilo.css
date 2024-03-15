@@ -1,0 +1,18 @@
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenedor div{
+    width: 100px;
+    height: 100px; 
+}
+
+
+.morado{
+    background-color: blueviolet;
+}
+
+.verde{
+    background-color: green;
+}

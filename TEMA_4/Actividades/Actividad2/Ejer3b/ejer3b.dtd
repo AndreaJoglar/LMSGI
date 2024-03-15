@@ -1,0 +1,10 @@
+<!ELEMENT productos (producto+)>
+<!ELEMENT producto (raton|teclado|monitor)+>
+<!ELEMENT raton (nombre?, descripcion?)>
+<!ELEMENT teclado (nombre?, descripcion?)>
+<!ELEMENT monitor (nombre?, descripcion?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ATTLIST raton codigo ID #REQUIRED>
+<!ATTLIST teclado codigo ID #REQUIRED>
+<!ATTLIST monitor codigo ID #REQUIRED>

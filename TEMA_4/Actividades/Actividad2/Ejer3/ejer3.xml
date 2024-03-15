@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE productos SYSTEM "ejer3.dtd">
+<productos>
+    <producto>
+        <raton codigo="cod1"></raton>
+    </producto>
+    <producto>
+        <teclado codigo="cod2">
+            <nombre>Teclado</nombre>
+            <descripcion>Teclado rgb</descripcion>
+        </teclado>
+    </producto>
+</productos>

@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<?xml-stylesheet href="Nombre.css" type="text/css"?>
+
+<!DOCTYPE elemento-raiz SYSTEM "uri.dtd">
+<!DOCTYPE elemento-raiz PUBLIC "www.uri.com">
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE elemento-raiz SYSTEM/PUBLIC [
+<!ELEMENT nombre contenido>
+]>
+
+<!ATTLIST libro titulo CDATA "Libro">
+<!ATTLIST libro titulo CDATA #FIXED "Libro">
+
+<!ATTLIST libro titulo CDATA #REQUIRED>
+<!ATTLIST libro titulo CDATA #IMPLIED>
+
+<!ENTITY nombreEntidad SYSTEM "uri.xml">
+<!ENTITY nombreEntidad PUBLIC "idPublico""uri">
+<texto>Hola, &nombre;</texto>
+
+<!ENTITY nombre "ciudad, direccion, cp">
+<!ELEMENTO persona (edad, %nombre;)
+
+<!ENTITY manzana SYSTEM "manzana.gif NDATA gif>
+<!NOTATION gif SYSTEM/PUBLIC "gifEditor.exe">
+
+<[!INCLUDE [
+<!ELEMENT libro (#PCDATA)>]
+]>
+<!IGNORE [
+<!ELEMENT libro (#PCDATA)>]
+]>
+
+<?xml-stylesheet type="text/css" href="estilo.css"?>

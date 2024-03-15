@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+    <title>cursos udemy</title>
+    <link>https://www.udemy.com/</link>
+    <description>Cursos UDEMY</description>
+    <language>es-ES</language>
+    <item>
+	  <title>curso 1</title>
+      <link>https://www.udemy.com/course/aprende-html5-y-css3-desde-cero/</link>
+      <description>
+        Este es uncursoc er donde aprender html
+      </description>
+      <pubDate>Mon, 20 Dec 2022 09:55:07 GMT</pubDate>
+      <category>Categoria Y</category>      
+	</item>
+	<item>
+	  <title>curso 2</title>
+      <link>https://www.udemy.com/course/desarrollo-web-completo-con-html5-css3-js-php-y-mysql/</link>
+      <description>
+       Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL
+      </description>
+      <pubDate>Fri, 10 Dec 2022 09:55:07 GMT</pubDate>
+      <category>Categoria Y</category>      
+	</item>
+	<item>
+	  <title>curso 3</title>
+      <link>https://www.udemy.com/course/universidad-desarrollo-web-moderno-html-css-javascript-html5-css3/</link>
+      <description>
+       Universidad Desarrollo Web - FrontEnd Web Developer!
+      </description>
+      <pubDate>Wed, 7 Dec 2022 09:55:07 GMT</pubDate>
+      <category>Categoria Y</category>      
+	</item>
+</channel>
+</rss>

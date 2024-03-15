@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libros>
+    <generoLiterario clase="Narrativa">
+        <libro isbn="9788423356980">
+            <caracteristicas>
+                <editorial>Destino</editorial>
+                <titulo>Nada</titulo>
+                <autor>Carmen Laforet</autor>
+                <edicion>
+                    <numeroEdicion>4</numeroEdicion>
+                    <fechaPublicacion>28/01/2020</fechaPublicacion>
+                    <unidades>30</unidades>
+                    <precio>10</precio>
+                </edicion>
+            </caracteristicas>
+        </libro>
+        <libro isbn="9788437637891">
+            <caracteristicas>
+                <editorial>Cátedra</editorial>
+                <titulo>La colmena</titulo>
+                <autor>Camilo José Cela</autor>
+                <edicion>
+                    <numeroEdicion>10</numeroEdicion>
+                    <fechaPublicacion>13/05/2018</fechaPublicacion>
+                    <unidades>20</unidades>
+                    <precio>18</precio>
+                </edicion>
+            </caracteristicas>
+        </libro>
+        <libro isbn="9788432241970">
+            <caracteristicas>
+                <editorial>Seix Barral</editorial>
+                <titulo>El país de las mujeres</titulo>
+                <autor>Gioconda Belli</autor>
+                <edicion>
+                    <numeroEdicion>3</numeroEdicion>
+                    <fechaPublicacion>22/06/2023</fechaPublicacion>
+                    <unidades>15</unidades>
+                    <precio>15</precio>
+                </edicion>
+            </caracteristicas>
+        </libro>
+    </generoLiterario>
+    <generoLiterario clase="Poesía">
+        <libro isbn="9788494271939">
+            <caracteristicas>
+                <editorial>Baile del sol</editorial>
+                <titulo>Prohibido silbar</titulo>
+                <autor>Sofía Castañón</autor>
+                <edicion>
+                    <numeroEdicion>1</numeroEdicion>
+                    <fechaPublicacion>08/09/2014</fechaPublicacion>
+                    <unidades>10</unidades>
+                    <precio>12</precio>
+                </edicion>
+            </caracteristicas>
+        </libro>
+        <libro isbn="9788433921888">
+            <caracteristicas>
+                <editorial>La Bella Varsovia</editorial>
+                <titulo>Los salmos fosforitos</titulo>
+                <autor>Berta García Faet</autor>
+                <edicion>
+                    <numeroEdicion>2</numeroEdicion>
+                    <fechaPublicacion>04/02/2017</fechaPublicacion>
+                    <unidades>15</unidades>
+                    <precio>12</precio>
+                </edicion>
+            </caracteristicas>
+        </libro>
+    </generoLiterario>
+    <generoLiterario clase="Teatro">
+        <libro isbn="9788467033335">
+            <caracteristicas>
+                <editorial>Espasa</editorial>
+                <titulo>La fundación</titulo>
+                <autor>Antonio Buero Vallejo</autor>
+                <edicion>
+                    <numeroEdicion>12</numeroEdicion>
+                    <fechaPublicacion>04/06/2020</fechaPublicacion>
+                    <unidades>30</unidades>
+                    <precio>15</precio>
+                </edicion>
+            </caracteristicas>
+        </libro>
+        <libro isbn="9788495291950">
+            <caracteristicas>
+                <editorial>La Uña Rota</editorial>
+                <titulo>La lengua en pedazos</titulo>
+                <autor>Juan Mayorga</autor>
+                <edicion>
+                    <numeroEdicion>1</numeroEdicion>
+                    <fechaPublicacion>22/02/2021</fechaPublicacion>
+                    <unidades>10</unidades>
+                    <precio>18</precio>
+                </edicion>
+            </caracteristicas>
+        </libro>
+        <libro isbn="9788497408226">
+            <caracteristicas>
+                <editorial>Castalia</editorial>
+                <titulo>La dama del alba</titulo>
+                <autor>Alejandro Casona</autor>
+                <edicion>
+                    <numeroEdicion>6</numeroEdicion>
+                    <fechaPublicacion>18/10/2018</fechaPublicacion>
+                    <unidades>30</unidades>
+                    <precio>16</precio>
+                </edicion>
+            </caracteristicas>
+        </libro>
+    </generoLiterario>
+</libros>
+    

@@ -1,0 +1,47 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.caja:first-child{
+    background-color: rgb(206, 103, 103);
+    order: 5;
+}
+
+.caja:nth-child(2){
+    background-color: coral;
+    order: 2;
+    /*modificacion de width para que ocupe el triple*/
+    width: 60%;
+}
+
+.caja:nth-child(3){
+    background-color: brown;
+}
+
+.caja:nth-child(4){
+    background-color: coral;
+    order: 3;
+}
+
+.caja:last-child{
+    background-color: coral;
+    order: 4;
+}
+
+.caja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 4px black;
+    width: 15%;
+    height: 400px;
+}
+
+/*Lo siguiente es para que elementos impares aparezcan
+alineados abajo y los pares arriba*/
+
+.caja:nth-child(2n+1){
+    position: relative;
+    bottom: -450px;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+    <style>
+        header {
+            display: flex;
+            height: 40px;
+            font-weight: bold;
+        }
+
+        #logo {
+            font-size: 2em;
+            border: solid 1px;
+        }
+
+        span {
+            color: black;
+        }
+
+        span:hover {
+            color: red;
+            cursor: pointer;
+        }
+
+        nav {
+            border: 1px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            gap: 15px;
+            width: 100%;
+            margin-left: 20px;
+            padding-right: 10px;
+            background-color: bisque;
+        }
+
+        main {
+            display: flex;
+        }
+
+        #seccion1 {
+            width: 25%;
+        }
+
+        #seccion2 {
+            width: 25%;
+        }
+
+        #seccion3 {
+            width: 50%;
+        }
+
+        footer {
+            border-top: 1px solid black;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            font-size: small;
+            background-color: bisque;
+        }
+
+        .centrado {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <span id="logo">Discoestu</span>
+        <nav>
+            <span>INICIO</span>
+            <span>VENTA ONLINE</span>
+            <span>CONTACTO</span>
+            <span>NOSOTROS</span>
+        </nav>
+    </header>
+    <main>
+        <section id="seccion1" class="centrado">
+            <p>Nuestras canciones del mes:</p>
+            <audio controls>
+                <source src="temazo.mp3" type="audio/mp3" />
+            </audio>
+            <audio controls>
+                <source src="temazo.mp3" type="audio/mp3" />
+            </audio>
+            <audio controls>
+                <source src="temazo.mp3" type="audio/mp3" />
+            </audio>
+        </section>
+        <section id="seccion2">
+            <p>Nuestros videos del mes:</p>
+            <iframe width="280" height="158" src="https://www.youtube.com/embed/YCZqgujSYUs"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe width="280" height="158" src="https://www.youtube.com/embed/U1th94xR694"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </section>
+        <section id="seccion3" class="centrado">
+            <p>Encuentranos</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2900.4674351059025!2d-5.851250025356109!3d43.36724937088067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd368cfa35319441%3A0x177752b8201eec2e!2sAFA%20Formacion%20Continua.%20Centro%20de%20Formaci%C3%B3n%20Asturias.!5e0!3m2!1ses!2ses!4v1702467504885!5m2!1ses!2ses"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+    <footer>
+        <span>
+            <a href="">Información</a><br>
+            <a href="">Contacto</a><br>
+            <a href="">Venta Online</a>
+        </span>
+        <span>
+            <a href="">Política de devoluciones</a><br>
+            <a href="">Aviso legal</a><br>
+            <a href="">Cookies</a>
+        </span>
+    </footer>
+</body>
+
+</html>

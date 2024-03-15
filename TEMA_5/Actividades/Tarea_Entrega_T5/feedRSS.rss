@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+      <title>Patio de butacas</title>
+      <link>https://www.familiadecine.com/blog/</link>
+      <description>Informacion sobre cine</description>
+      <language>es-ES</language>
+      <item>
+        <title>Actualidad</title>
+        <link>https://festivaldemalaga.com/actualidad/ver-noticia/?id=2361</link>
+        <description>Toda la actualidad del Festival de cine de Malaga</description>
+        <pubDate>Sat, 9 Mar 2024 17:36:02 GMT</pubDate>
+        <category>Categoria A</category>      
+      </item>
+      <item>
+        <title>Estrenos</title>
+        <link>https://www.fotogramas.es/noticias-cine/g45830709/mejores-peliculas-2024/</link>
+        <description>Informacion detallada sobre los principales estrenos del año</description>
+        <pubDate>Fri, 1 Mar 2024 14:23:07 GMT</pubDate>
+        <category>Categoria B</category>      
+      </item>
+      <item>
+        <title>Cine espaniol</title>
+        <link>https://www.mondosonoro.com/blog-musica/estibaliz-urresola/</link>
+        <description>
+        Entrevistas con personalidades del cine nacional
+        </description>
+        <pubDate>Wed, 6 Mar 2022 13:45:00 GMT</pubDate>
+        <category>Categoria C</category>      
+      </item>
+      <item>
+        <title>Criticas</title>
+        <link>https://www.accioncine.es/critica-dune-parte-dos-jve</link>
+        <description>Espacio para las criticas de peliculas</description>
+        <pubDate>Fri, 1 Mar 2022 15:02:10 GMT</pubDate>
+        <category>Categoria D</category>      
+      </item>
+    </channel>
+</rss>

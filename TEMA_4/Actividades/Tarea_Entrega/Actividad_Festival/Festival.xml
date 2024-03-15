@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE festival SYSTEM "Festival.dtd">
+<?xml-stylesheet href="Festival.css" type="text/css"?>
+<festival>
+    <asistentes>
+        <titulo>NOMBRE</titulo>
+        <titulo>APELLIDO</titulo>
+        <titulo>CONTACTO</titulo>
+        <titulo>INSCRIPCIONES</titulo>
+        <titulo>OBSERVACIONES</titulo>
+        <titulo>PRECIO</titulo>
+        <asistente idAsistente="id1">
+            <nombre>Arturo</nombre>
+            <apellido>Gómez</apellido>
+            <contacto>
+                <telefono>666111222</telefono>
+                <email>art@tur.com</email>
+            </contacto>
+            <inscripciones>
+                <inscripcion codAct="cod1">001</inscripcion>
+                <inscripcion codAct="cod2">002</inscripcion>
+            </inscripciones>
+            <observaciones>
+                <observacion>Bono comida</observacion>
+            </observaciones>
+            <precio>35 €</precio>
+        </asistente>
+        <asistente idAsistente="id2">
+            <nombre>Mariana</nombre>
+            <apellido>López</apellido>
+            <contacto>
+                <telefono>666222333</telefono>
+            </contacto>
+            <inscripciones>
+                <inscripcion codAct="cod1">001</inscripcion>
+            </inscripciones>
+            <observaciones>
+                <observacion></observacion>
+            </observaciones>
+            <precio>20 €</precio>
+        </asistente>
+        <asistente idAsistente="id3">
+            <nombre>Rosa</nombre>
+            <apellido>Street</apellido>
+            <contacto>
+                <telefono>611222444</telefono>
+            </contacto>
+            <inscripciones>
+                <inscripcion codAct="cod3">003</inscripcion>
+                <inscripcion codAct="cod4">004</inscripcion>
+            </inscripciones>
+            <observaciones>
+                <observacion>Transporte lanzadera</observacion>
+                <observacion>Zona VIP</observacion>
+            </observaciones>
+            <precio>60 €</precio>
+        </asistente>
+        <asistente idAsistente="id4">
+            <nombre>Eduardo</nombre>
+            <apellido>Sigur</apellido>
+            <contacto>
+                <email>sigurs@mil.com</email>
+            </contacto>
+            <inscripciones>
+                <inscripcion codAct="cod1">001</inscripcion>
+                <inscripcion codAct="cod2">002</inscripcion>
+                <inscripcion codAct="cod3">003</inscripcion>
+                <inscripcion codAct="cod4">004</inscripcion>
+            </inscripciones>
+            <observaciones>
+                <observacion>Movilidad reducida</observacion>
+                <observacion>Bono comida</observacion>
+                <observacion>Transporte lanzadera</observacion>
+                <observacion>Zona VIP</observacion>
+            </observaciones>
+            <precio>120 €</precio>
+        </asistente>
+    </asistentes>
+    
+    <actividades>
+        <titulo>CÓDIGO</titulo>
+        <titulo>ESPACIO</titulo>
+        <titulo>SERVICIOS</titulo>
+        <titulo>TIPO</titulo>
+        <titulo>ENCARGADO/S</titulo>
+        <actividad>
+            <codigo codAct="cod1">001</codigo>
+            <espacio codSala="sala1">Sala polivalente</espacio>
+            <servicios>
+                <servicio>Cubierta</servicio>
+                <servicio>Espacio infantil</servicio>
+            </servicios>
+            <tipo>Taller</tipo>
+            <encargados>
+                <encargado tipo="responsable">
+                    <nombreEncargado>Jose</nombreEncargado>
+                </encargado>
+            </encargados>
+        </actividad>
+        <actividad>
+            <codigo codAct="cod2">002</codigo>
+            <espacio codSala="sala2">Salon actos</espacio>
+            <servicios>
+                <servicio>Cubierta</servicio>
+            </servicios>
+            <tipo>Ponencia</tipo>
+            <encargados>
+                <encargado tipo="responsable">
+                    <nombreEncargado>Mercedes</nombreEncargado>
+                </encargado>
+                <encargado tipo="practicas">
+                    <nombreEncargado>Silvia</nombreEncargado>
+                </encargado>
+            </encargados>
+        </actividad>
+        <actividad>
+            <codigo codAct="cod3">003</codigo>
+            <espacio codSala="sala3">Anfiteatro</espacio>
+            <servicios>
+                <servicio>Cubierta</servicio>
+                <servicio>Zona VIP</servicio>
+            </servicios>
+            <tipo>Concierto</tipo>
+            <encargados>
+                <encargado tipo="responsable">
+                    <nombreEncargado>Mercedes</nombreEncargado>
+                </encargado>
+                <encargado tipo="practicas">
+                    <nombreEncargado>Silvia</nombreEncargado>
+                </encargado>
+                <encargado tipo="practicas">
+                    <nombreEncargado>Roberto</nombreEncargado>
+                </encargado>
+            </encargados>
+        </actividad>
+        <actividad>
+            <codigo codAct="cod4">004</codigo>
+            <espacio codSala="sala4">Explanada</espacio>
+            <servicios>
+                <servicio>Bar</servicio>
+                <servicio>Zona VIP</servicio>
+                <servicio>Espacio infantil</servicio>
+            </servicios>
+            <tipo>Concierto</tipo>
+            <encargados>
+                <encargado tipo="responsable">
+                    <nombreEncargado>Jose</nombreEncargado>
+                </encargado>
+                <encargado tipo="practicas">
+                    <nombreEncargado>Roberto</nombreEncargado>
+                </encargado>
+            </encargados>
+        </actividad>
+    </actividades>
+</festival>

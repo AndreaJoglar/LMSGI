@@ -1,0 +1,38 @@
+ul{
+    display: flex;
+    
+}
+
+li{
+    background-color: plum;
+    list-style-type: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 10px;
+    
+}
+
+.star{
+    justify-content: flex-start;
+}
+
+.end{
+    justify-content: end;
+}
+
+.center{
+    justify-content: center;
+}
+
+.space_between{
+    justify-content: space-between;
+}
+
+.space_around{
+    justify-content: space-around;
+}
+
+
